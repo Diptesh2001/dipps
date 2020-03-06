@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <!-- Settings of the HTML document -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project1</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header-left">
+         <span class="logo">🐼Code Panda</span> 
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <form action="/action_page.php">
+            <label for="plan"></label>
+            <select id="Languages" name="Languages">
+              <option value="C++" selected>C++</option>
+              <option value="python">Python</option>
+              <option value="java">JavaScript</option>
+              <option value="SQL">SQL</option>
+            </select>
+          <a href="#">Resources</a>
+          <a href="#">Guide</a>
+          <a href="#">Lessons</a>
+          <a href="#" class="login">Log in</a>
+          <a href="#" class="btn signup">Search</a>
+        </div>
+      </div>
+    </header>
+   
+    <!-- Top -->
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>CHAPTER 1</h1>
+        <h1>INTRODUCTION TO C++</h1>
+                
+      </div>
+    </div>
+    
+    <!-- Sign up modal -->
+    <div class="signup-modal-wrapper" id="signup-modal">
+      <div class="modal">
+        <div class="close-modal">
+          <i class="fa fa-2x fa-times">×</i>
+        </div>
+        <div id="signup-form">
+          <h2>Search</h2>
+          <form action="#">
+            <input class="form-control" type="text" placeholder="Search for lessons,topics,libraries and more" />            
+            <div id="submit-btn">Search</div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Lesson -->
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Brief Notes</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/html.png" />
+              <p>Functions</p>
+            </div>
+            <p class="text-contents">
+              A function is a set of statements that take inputs, do some specific computation and produces output.
+              <br>The idea is to put some commonly or repeatedly done task together and make a function so that instead
+              of writing the same code again and again for different inputs, we can call the function.</br>
+            </p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/jQuery.png" />
+              <p>Arrays</p>
+            </div>
+            <p class="text-contents">
+              An array in C or C++ is a collection of items stored at contiguous memory locations and elements can 
+              be accessed randomly using indices of an array. They are used to store similar type of elements as in
+              the data type must be the same for all elements. They can be used to store collection of primitive data
+              types such as int, float, double, char, etc of any particular type.
+              
+            </p>            
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/ruby.png" />
+              <p>Classes</p>
+            </div>
+            <p class="text-contents">
+              A class in C++ is the building block, that leads to Object-Oriented programming. It is a user-defined 
+              data type, which holds its own data members and member functions, which can be accessed and used by creating
+              an instance of that class. A C++ class is like a blueprint for an object.
+            </p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/php.png" />
+              <p>Templates</p>
+            </div>
+            <p class="text-contents">
+              A template is a simple and yet very powerful tool in C++. The simple idea is to pass data type as a parameter 
+              so that we don’t need to write the same code for different data types. For example, a software company may need 
+              sort() for different data types. Rather than writing and maintaining the multiple codes, we can write one sort() 
+              and pass data type as a parameter.
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Message -->
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Sign-up today! </h2>         
+        </div>
+        
+        <p>
+          <div class="btn-wrapper">
+            
+            
+            <a href="#" class="btn facebook"
+              ><span class="fa fa-facebook"></span>Sign up with Facebook</a
+            >
+            <a href="#" class="btn twitter"
+              ><span class="fa fa-twitter"></span>Sign up with Twitter</a
+            >
+          </div>
+        </p>  
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
